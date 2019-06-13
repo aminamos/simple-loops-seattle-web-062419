@@ -21,15 +21,11 @@ end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
+  
   number_of_times.do
-    i = 0
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
-    i += 1
-    if i >= number_of_times
-      break
     end
-  end
 end
 
 def while_iterator(number_of_times)
@@ -40,8 +36,7 @@ def while_iterator(number_of_times)
   while i < number_of_times
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
-    
-  
+  end
 end
 
 def until_iterator(number_of_times)
